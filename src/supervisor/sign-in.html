@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link rel="stylesheet" href="../css/output.css">
+</head>
+<body>
+    <main class="flex justify-center items-center w-full h-lvh">
+        <section class="content flex gap-4 w-full">
+            <article class="regside justify-center items-center flex flex-col w-3/6">
+                <div class="reg-content grid-flow-row grid grid-rows-3 gap-5">
+                    <header class="top-side w-full flex justify-center items-center">
+                        <div class="image-container flex justify-center items-center w-2/3">
+                            <img src="../assets/Group 178890.svg" alt="main image">
+                        </div>
+                    </header>
+                    <div class="middle-side pr-3">
+                        <div class="mid-content flex flex-col gap-5">
+                            <h1 class="text-2xl font-bold text-center">تسجيل الدخول</h1>
+                            <div class="input">
+                                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">البريد الإلكتروني</label>
+                                <input type="email" id="email" class="outline-[#63518C] bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#63518C] focus:border-[#63518C] block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-[#63518C] dark:focus:border-[#63518C]" placeholder="ادخل الأسم" required />
+                            </div>
+                            <div class="input">
+                                <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">كلمة المرور</label>
+                                <input type="password" id="password" class="outline-[#63518C] bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#63518C] focus:border-[#63518C] block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-[#63518C] dark:focus:border-[#63518C]" placeholder="ادخل كلمة المرور" required />
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="botton-side flex justify-center items-end w-full gap-4">
+                        <button class="bg-[#63518C] text-white w-full rounded-md px-3 py-2">تسجيل</button>
+                        <button class="bg-white text-[#63518C] border border-[#63518C] w-full rounded-md px-3 py-2">إلغاء</button>
+                    </footer>
+                </div>
+            </article>
+            <aside class="main-image border-r-2 w-3/6 border-gray-200 h-[100vh] flex justify-end items-center">
+                <img class="h-full" src="../assets/person.svg" alt="main image">
+            </aside>
+        </section>
+    </main>
+</body>
+</html>

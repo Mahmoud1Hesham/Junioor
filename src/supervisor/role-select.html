@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin page</title>
+    <link rel="stylesheet" href="../css/output.css">
+</head>
+
+<body>
+
+    <main class="flex justify-center items-center w-full h-lvh">
+        <section class="content grid grid-cols-2 gap-4 w-full h-2/3">
+            <article class="regside justify-center items-center flex flex-col">
+                <div class="reg-content grid-flow-row grid grid-rows-3 gap-5 ">
+                    <div class="top-side w-full flex justify-center items-center">
+                        <figure class="image-container flex justify-center items-center w-2/3">
+                            <img src="../assets/Group 178890.svg" alt="main image">
+                        </figure>
+                    </div>
+                    <div class="middle-side pr-3">
+                        <div class="mid-content flex flex-col gap-5 ">
+                            <h1 class="text-2xl font-bold text-center">تسجيل الدخول</h1>
+                            <div class="action flex flex-col relative">
+                                <div class="flex flex-col w-[95%] gap-3">
+                                    <label for="dropdownDefaultButton">الحالة</label>
+                                    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
+                                        class=" flex justify-between text-black bg-[#ECECEC] focus:ring-4 focus:outline-none focus:ring-[#63518C] font-medium rounded-lg text-sm px-5 py-2.5 text-center  items-center dark:bg-[#63518C] dark:hover:bg-[#63518C] dark:focus:ring-[#63518C]"
+                                        type="button">
+                                        إختر
+                                        <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="m1 1 4 4 4-4" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <nav id="dropdown"
+                                    class="z-10 hidden w-[80%] bg-white divide-y absolute top-20 divide-gray-100 rounded-lg shadow text-center dark:bg-gray-700">
+                                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                        aria-labelledby="dropdownDefaultButton">
+                                        <li>
+                                            <a href="#"
+                                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">مشرف</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">ادمن</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">طالب</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">طالب
+                                                مدرسه</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="botton-side flex items-end w-full">
+                        <button class="bg-[#63518C] text-white w-full rounded-md px-3 py-2 ">متابعه</button>
+                    </div>
+                </div>
+            </article>
+            <figure class="main-image border-r-2 border-gray-200 w-10/12 pr-24 flex justify-center items-center">
+                <img class="w-full" src="../assets/Group 178890.svg" alt="main image">
+            </figure>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById('dropdownDefaultButton').addEventListener('click', function () {
+            var dropdown = document.getElementById('dropdown');
+            dropdown.classList.toggle('hidden');
+        });
+    </script>
+
+
+</body>
+
+</html>
