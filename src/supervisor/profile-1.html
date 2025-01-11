@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/output.css">
+    <title>الملف الشخصي 1</title>
+</head>
+
+<body class="font-['Noto Kufi Arabic']">
+    <div class="maincontainer">
+        <aside>
+            <nav class="pages">
+                <div class="exit">
+                    <img src="../assets/exit.png" alt="close the nav bar">
+                </div>
+                <a href="../Home/index.html">
+                    <div class="image">
+                        <img src="../assets/jounir-image.svg" alt="للذهاب إلي الموقع إضغط هنا">
+                    </div>
+                </a>
+                <div class="links">
+                    <ul>
+                        <li class="bg active">
+                            <a href="../Home/index.html">
+                                <div class="link">
+                                    <img src="../assets/main.svg" alt="اذهب للصفحة الرئيسية">
+                                </div>
+                                <p>الرئيسية</p>
+                            </a>
+                        </li>
+                        <li class="bg">
+                            <a href="../../pages/courses/index.html">
+                                <div class="link">
+                                    <img src="../assets/courses.svg" alt="اذهب لصفحة الكورسات">
+                                </div>
+                                <p>الكورسات</p>
+                            </a>
+                        </li>
+                        <li class="bg">
+                            <a href="#">
+                                <div class="link">
+                                    <img src="../assets/teacher.svg" alt="اذهب لصفحة الأكاديمين">
+                                </div>
+                                <p>الأكاديمين</p>
+                            </a>
+                        </li>
+                        <li class="profile">
+                            <a href="#">
+                                <div class="link">
+                                    <img src="../assets/profile.svg" alt="اذهب لصفحة الملف الشخصي">
+                                </div>
+                                <p>الملف الشخصي</p>
+                            </a>
+                        </li>
+                        <li class="bg">
+                            <a href="#">
+                                <div class="link">
+                                    <img src="../assets/mygroups.svg" alt="اذهب لصفحة الجروبات">
+                                </div>
+                                <p>مجموعتي</p>
+                            </a>
+                        </li>
+                        <li class="bg">
+                            <a href="#">
+                                <div class="link">
+                                    <img src="../assets/wallet.svg" alt="اذهب لصفحة المحفظة">
+                                </div>
+                                <p>محفظتي</p>
+                            </a>
+                        </li>
+                        <li class="bg">
+                            <a href="#">
+                                <div class="link">
+                                    <img src="../assets/store.svg" alt="اذهب لصفحة المتجر">
+                                </div>
+                                <p>المتجر</p>
+                            </a>
+                        </li>
+                        <li class="bg">
+                            <a href="#">
+                                <div class="link">
+                                    <img src="../assets/messages.svg" alt="اذهب لصفحة الرسائل">
+                                </div>
+                                <p>الرسائل</p>
+                            </a>
+                        </li>
+                        <li class="bg">
+                            <a href="#">
+                                <div class="link">
+                                    <img src="../assets/settings.svg" alt="اذهب لصفحة الإعدادات">
+                                </div>
+                                <p>الاعدادات</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+        <main class="content">
+            <div class="container">
+                <header class="header">
+                    <p>الملف الشخصي</p>
+                    <div class="input">
+                        <input type="text" placeholder="البحث" name="search">
+                        <img src="../assets/search.svg" alt="ابحث هنا">
+                    </div>
+                    <div class="notification">
+                        <img src="../assets/notificatin.svg" alt="الأشعارات">
+                    </div>
+                </header>
+                <section class="pt-8">
+                    <div class="title">
+                        <div class="content-page w-full flex flex-col gap-5">
+                            <div class="form-pro w-full grid grid-cols-2 gap-y-16">
+                                <div class="f-req">
+                                    <h1 class="group-num text-2xl  font-bold">الأسم</h1>
+                                    <div class="g-details flex justify-between w-4/5 mt-5 items-center gap-16">
+                                        <div class="input w-full">
+                                            <input type="text" id="name"
+                                                class="bg-[#ECECEC] active:border-[#63518C] border-[#63518C] outline-[#63518C] text-gray-900 text-md rounded-lg focus:ring-[#63518C] focus:border-[#63518C] block w-full py-5 px-3"
+                                                placeholder="ادخل الأسم" required />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-req">
+                                    <h1 class="group-num text-2xl  font-bold">رقم الهاتف</h1>
+                                    <div class="g-details flex justify-between w-4/5 mt-5 items-center gap-5">
+                                        <div class="input w-full">
+                                            <input type="phone" id="phone"
+                                                class="bg-[#ECECEC] active:border-[#63518C] border-[#63518C] outline-[#63518C] text-gray-900 text-md rounded-lg focus:ring-[#63518C] focus:border-[#63518C] block w-full py-5 px-3"
+                                                placeholder="ادخل رقم الهاتف" required />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-req">
+                                    <h1 class="group-num text-2xl  font-bold">البريد الإلكتروني</h1>
+                                    <div class="g-details flex justify-between w-4/5 mt-5 items-center gap-5">
+                                        <div class="input w-full">
+                                            <input type="email" id="email"
+                                                class="bg-[#ECECEC] active:border-[#63518C] border-[#63518C] outline-[#63518C] text-gray-900 text-md rounded-lg focus:ring-[#63518C] focus:border-[#63518C] block w-full py-5 px-3"
+                                                placeholder="ادخل البريد الإلكتروني" required />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-req">
+                                    <h1 class="group-num text-2xl  font-bold">المحافظة</h1>
+                                    <div class="g-details flex justify-between w-4/5 mt-5 items-center gap-5">
+                                        <div class="action w-full flex flex-col relative">
+                                            <div class="flex flex-col w-full gap-3">
+                                                <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
+                                                    class=" flex justify-between text-gray-400 bg-[#ECECEC] focus:ring-4 focus:outline-none focus:ring-[#63518C] font-medium rounded-lg  px-3 py-5 text-center  items-center "
+                                                    type="button">
+                                                    إختر المحافظة
+                                                    <img src="../assets/dorpdownarrow.svg" alt="dropdown arrow">
+                                                </button>
+                                            </div>
+                                            <nav id="dropdown"
+                                                class="z-10 hidden w-[80%] bg-white divide-y absolute top-20 divide-gray-100 rounded-lg shadow text-center ">
+                                                <ul class="py-2 text-sm text-gray-700"
+                                                    aria-labelledby="dropdownDefaultButton">
+                                                    <li>
+                                                        <a href="#"
+                                                            class="block px-4 py-2 hover:bg-gray-100 ">مشرف</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"
+                                                            class="block px-4 py-2 hover:bg-gray-100 ">ادمن</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"
+                                                            class="block px-4 py-2 hover:bg-gray-100 ">طالب</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"
+                                                            class="block px-4 py-2 hover:bg-gray-100 ">طالب
+                                                            مدرسه</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="f-req-img pt-12">
+                                <h1 class="group-num text-2xl  font-bold">رفع صورة</h1>
+                                <div class="g-details  flex justify-between w-[90%] mt-5 items-center gap-5">
+                                    <div class="input relative w-full">
+                                        <label for="image"
+                                            class="bg-[#ECECEC] p-32 h-14 active:border-[#63518C] border-[#63518C] outline-[#63518C] text-gray-900 text-md rounded-lg focus:ring-[#63518C] focus:border-[#63518C] block w-full "></label>
+                                        <input type="file" id="image" class="hidden" placeholder="ادخل الأسم"
+                                            required />
+                                        <img src="../assets/input file image.svg" alt="input file image" class="absolute top-[50%] right-[50%] translate-y-[-50%]">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="action-btns flex gap-4 justify-end w-[90%] pt-8">
+                                <button class="btn-main px-10">حفظ</button>
+                                <button class="btn-main-white px-10">الغاء</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script>
+        document.getElementById('dropdownDefaultButton').addEventListener('click', function () {
+            var dropdown = document.getElementById('dropdown');
+            dropdown.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>

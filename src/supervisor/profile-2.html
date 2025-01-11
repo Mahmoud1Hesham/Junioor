@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/output.css">
-    <title>الطلاب 1</title>
+    <title>الملف الشخصي 2</title>
 </head>
 
 <body class="font-['Noto Kufi Arabic']">
@@ -102,7 +102,7 @@
         <div class="content">
             <div class="container">
                 <div class="header">
-                    <p>الطلاب</p>
+                    <p>الملف الشخصي</p>
                     <div class="input">
                         <input type="text" placeholder="البحث" name="search">
                         <img src="../assets/search.svg" alt="ابحث هنا">
@@ -113,74 +113,59 @@
                 </div>
                 <section class="">
                     <div class="title">
-                        <div class="content">
-                            <div class="back-arrow w-37 justify-start items-center pb-20 flex  gap-2">
+                        <div class="content-page">
+                            <div class="back-arrow w-37 justify-start items-center pb-18 flex  gap-2">
                                 <a href="#">
                                     <img src="../assets/arrow-up-circle.svg" alt="">
                                 </a>
-                                <h3 class="text-lg font-semibold">متابعة الطلاب</h3>
+                                <h3 class="text-lg font-semibold">مصطفي حسن</h3>
                             </div>
-                            <div class="page-info">
-                                <h1 class="group-num text-2xl font-bold">اسم الطالب</h1>
-                                <div class="g-details flex justify-between w-3/5 mt-5  items-center gap-5">
-                                    <div class="input w-3/4">
-                                        <input type="email" id="email"
-                                            class="bg-[#ECECEC] active:border-[#63518C] border-[#63518C] outline-[#63518C] text-gray-900 text-md rounded-lg focus:ring-[#63518C] focus:border-[#63518C] block w-full py-5 px-3 "
-                                            placeholder="ادخل الأسم" required />
+                            <div class="profile-details flex flex-col w-full">
+                                <div class="user-title flex justify-center items-center">
+                                    <div class="profile-img">
+                                        <img src="../assets/profile frame.svg" alt="user hero">
                                     </div>
-                                    <button class="px-9 py-3 rounded-lg text-xl text-white bg-[#63518C]">بحث</button>
                                 </div>
-                            </div>
-                            <div class="sessions-table pt-7 ">
-                                <h2 class="text-2xl font-bold pb-7">رقم المجموعة : 2</h2>
-                                <div class="student-details w-full flex flex-col gap-10">
-                                    <div class="details-1 w-full flex gap-7 ">
-                                        <h3 class="text-2xl font-bold ">درجات الطالب :</h3>
-                                        <div class="rows flex flex-col gap-10">
-                                            <div class="row-1 flex justify-around items-center gap-28">
-                                                <span class="text-md font-semibold">عربي</span>
-                                                <span class="text-md font-semibold">علوم</span>
-                                                <span class="text-md font-semibold">رياضيات</span>
-                                                <span class="text-md font-semibold">دراسات</span>
-                                                <span class="text-md font-semibold">انجليزي</span>
-                                            </div>
-                                            <div class="row-2 flex justify-around items-center gap-28 ml-2">
-                                                <span class="text-md font-semibold">10/10</span>
-                                                <span class="text-md font-semibold">7/10</span>
-                                                <span class="text-md font-semibold">6/10</span>
-                                                <span class="text-md font-semibold">10/10</span>
-                                                <span class="text-md font-semibold">6/10</span>
-                                            </div>
+                                <div class="user-details flex flex-col gap-10 w-[71%] pt-20">
+                                    <div class="row-1 flex flex-col gap-[2rem]">
+                                        <div class="top-side ml-6 flex gap-5 justify-between">
+                                            <h4 class="font-bold">الأسم</h4>
+                                            <h4 class="font-bold">رقم الهاتف</h4>
+                                        </div>
+                                        <div class="bottom-side mr-4 flex gap-5 justify-between">
+                                            <h4>مصطفي حسن</h4>
+                                            <h4>01111111002</h4>
                                         </div>
                                     </div>
-                                    <div class="details-2 flex justify-start items-center gap-6">
-                                        <h3 class="text-2xl font-bold">المجموع :</h3>
-                                        <span class="text-md mt-1">39 من 40</span>
-                                    </div>
-                                    <div class="details-3 flex gap-[2.2rem]">
-                                        <h3 class="text-2xl font-bold "> التقدير :</h3>
-                                        <div class="flex gap-7">
-                                            <span class="text-md mt-1">78 %</span>
-                                            <span class="text-md mt-1">جيد جدا</span>
+                                    <div class="row-2 flex flex-col gap-[2rem]">
+                                        <div class="top-side ml-6 flex gap-5 justify-between">
+                                            <h4 class="font-bold">البريد الإلكتروني</h4>
+                                            <h4 class="font-bold">المحافظة</h4>
+                                        </div>
+                                        <div class="bottom-side mr-4 flex gap-5 justify-between">
+                                            <h4>example@email.com</h4>
+                                            <h4>الدقهليه</h4>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="f-req-img pt-12">
+                                    <h1 class="group-num text-2xl  font-bold">رفع صورة</h1>
+                                    <div class="g-details  flex justify-between w-[90%] mt-5 items-center gap-5">
+                                        <div class="input relative w-full">
+                                            <label for="image"
+                                                class="bg-[#ECECEC] p-[5rem] h-14 active:border-[#63518C] border-[#63518C] outline-[#63518C] text-gray-900 text-md rounded-lg focus:ring-[#63518C] focus:border-[#63518C] block w-full "></label>
+                                            <input type="file" id="image" class="hidden" placeholder="ادخل الأسم"
+                                                required />
+                                            <img src="../assets/input file done.svg" alt="input file image"
+                                                class="absolute top-[50%] right-[50%] translate-y-[-50%]">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="action-btns flex gap-4 justify-end w-[90%] pt-8">
+                                    <button class="btn-main px-10">تعديل</button>
+                                    <button class="btn-main-white px-10">الغاء</button>
+                                </div>    
                             </div>
-                            <footer class="py-32 flex flex-col gap-6">
-                                <div class="flex justify-start items-center gap-6">
-                                    <h3 class="text-2xl font-bold">عدد الطلاب :</h3>
-                                    <h3 class="text-2xl font-bold">20 طالب</h3>
-                                </div>
-                                <div class="flex justify-between items-center">
-                                    <div class="flex justify-start items-center gap-6">
-                                        <h3 class="text-2xl font-bold">طلاب بدون مجموعة :</h3>
-                                        <h3 class="text-2xl font-bold">5 طلاب</h3>
-                                    </div>
-                                    <div class="flex justify-center items-center">
-                                        <button class="py-3 px-8 bg-[#63518C] rounded-lg text-lg text-white ">المجموعات</button>
-                                    </div>
-                                </div>
-                            </footer>
                         </div>
                     </div>
             </div>

@@ -120,10 +120,18 @@
                                 <a href="#">
                                     <img src="../assets/arrow-up-circle.svg" alt="">
                                 </a>
-                                <h3 class="text-lg font-semibold">المجموعات</h3>
+                                <h3 class="text-lg font-semibold">متابعة الطلاب</h3>
                             </div>
                             <div class="page-info">
-                                <h1 class="group-num text-2xl font-bold pb-6">مجموعة رقم 2</h1>
+                                <h1 class="group-num text-2xl font-bold">إضافة طالب</h1>
+                                <div class="g-details flex justify-between w-3/5 mt-5  items-center gap-5">
+                                    <div class="input w-3/4">
+                                        <input type="email" id="email"
+                                            class="bg-[#ECECEC] active:border-[#63518C] border-[#63518C] outline-[#63518C] text-gray-900 text-md rounded-lg focus:ring-[#63518C] focus:border-[#63518C] block w-full py-5 px-3"
+                                            placeholder="ادخل الأسم" required />
+                                    </div>
+                                    <button class="px-9 py-3 rounded-lg text-xl text-white bg-[#63518C]">إضافة</button>
+                                </div>
                             </div>
                             <div class="sessions-table pt-7">
                                 <h2 class="text-2xl font-bold pb-7">طلاب المجموعة</h2>
@@ -133,70 +141,31 @@
                                             <span class="font-bold text-xl">1/</span>
                                             <h5 class="font-bold text-xl">احمد محمود</h5>
                                         </div>
-                                        <div class="actions flex gap-10">
-                                            <span class="text-red-700 font-bold underline hover:no-underline">حذف</span>
-                                            <span class="font-bold underline hover:no-underline">تغيير المجموعة</span>
+                                    </div>
+                                    <div class="student-row flex justify-between w-4/6">
+                                        <div class="student-name flex  gap-2">
+                                            <span class="font-bold text-xl">1/</span>
+                                            <h5 class="font-bold text-xl">احمد محمود</h5>
                                         </div>
                                     </div>
                                     <div class="student-row flex justify-between w-4/6">
                                         <div class="student-name flex  gap-2">
-                                            <span class="font-bold text-xl">2/</span>
+                                            <span class="font-bold text-xl">1/</span>
                                             <h5 class="font-bold text-xl">احمد محمود</h5>
-                                        </div>
-                                        <div class="actions flex gap-10">
-                                            <span
-                                                class="text-red-700 font-bold underline hover:no-underline ">حذف</span>
-                                            <span
-                                                class="font-bold underline hover:no-underline hover:text-red-500">تغيير
-                                                المجموعة</span>
                                         </div>
                                     </div>
                                     <div class="student-row flex justify-between w-4/6">
                                         <div class="student-name flex  gap-2">
-                                            <span class="font-bold text-xl">3/</span>
+                                            <span class="font-bold text-xl">1/</span>
                                             <h5 class="font-bold text-xl">احمد محمود</h5>
-                                        </div>
-                                        <div class="actions flex gap-10">
-                                            <span class="text-red-700 font-bold underline hover:no-underline">حذف</span>
-                                            <span class="font-bold underline hover:no-underline">تغيير المجموعة</span>
                                         </div>
                                     </div>
                                     <div class="student-row flex justify-between w-4/6">
                                         <div class="student-name flex  gap-2">
-                                            <span class="font-bold text-xl">4/</span>
+                                            <span class="font-bold text-xl">1/</span>
                                             <h5 class="font-bold text-xl">احمد محمود</h5>
                                         </div>
-                                        <div class="actions flex gap-10">
-                                            <span class="text-red-700 font-bold underline hover:no-underline">حذف</span>
-                                            <span class="font-bold underline hover:no-underline">تغيير المجموعة</span>
-                                        </div>
                                     </div>
-                                    <div class="student-row flex justify-between w-4/6">
-                                        <div class="student-name flex  gap-2">
-                                            <span class="font-bold text-xl">5/</span>
-                                            <h5 class="font-bold text-xl">احمد محمود</h5>
-                                        </div>
-                                        <div class="actions flex gap-10">
-                                            <span class="text-red-700 font-bold underline hover:no-underline">حذف</span>
-                                            <span class="font-bold underline hover:no-underline">تغيير المجموعة</span>
-                                        </div>
-                                    </div>
-                                    <div class="student-row flex justify-between w-4/6">
-                                        <div class="student-name flex  gap-2">
-                                            <span class="font-bold text-xl">6/</span>
-                                            <h5 class="font-bold text-xl">احمد محمود</h5>
-                                        </div>
-                                        <div class="actions flex gap-10">
-                                            <span class="text-red-700 font-bold underline hover:no-underline">حذف</span>
-                                            <span class="font-bold underline hover:no-underline">تغيير المجموعة</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="action-btns flex w-8/12 justify-center pt-20 gap-20">
-                                    <button class="py-3 px-14 bg-[#63518C] rounded-lg text-lg text-white mt-5">تعديل</button>
-                                    <button
-                                        class="py-3 px-8 bg-white border border-[#63518C] rounded-lg text-lg text-[#63518C] mt-5">إضافة
-                                        طالب</button>
                                 </div>
                             </div>
                         </div>
@@ -204,19 +173,6 @@
                 </section>
             </div>
         </main>
-    </div>
-    <div class="bg-red-500 w-full h-52 pt-6">
-        <div class="container">
-            <div class="modal bg-white w-[34rem] p-4 rounded-l-2xl  rounded-tr-2xl  flex justify-center items-center gap-8">
-                <div class="right flex gap-3">
-                    <h4 class="font-bold">نقل الي المجموعة:</h4>
-                    <span class="text-gray-400">
-                        ادخل رقم المجموعة
-                    </span>
-                </div>
-                <button class="py-3 px-14 bg-[#63518C] rounded-lg text-lg text-white">نقل</button>
-            </div>
-        </div>
     </div>
 </body>
 
